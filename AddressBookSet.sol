@@ -8,12 +8,13 @@ pragma solidity ^0.8.17;
  * specific functions.
  */
 
-
-// 🚀 Deploy Instructions:
-// 	1.	Copy-paste seluruh kode
-// 	2.	Compile dengan Solidity `^0.8.17`
-// 	3.	Deploy `AddressBookFactory` contract
-// 	4.	Submit address AddressBookFactory untuk NFT Badge
+// ========== DEPLOY INSTRUCTIONS ==========
+/**
+* Copy-paste entire code
+* Compile with Solidity `^0.8.17`
+* Deploy `AddressBookFactory` contract
+* Submit address AddressBookFactory for NFTs Badge
+*/
 
 abstract contract Context {
     function _msgSender() internal view virtual returns (address) {
