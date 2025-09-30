@@ -1,16 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-
-
-// Constructor Parameters:
-// 	•	`_shares`: 1000
-// 	•	`_name`: “Pat”
-// 	•	`_salary`: 50000
-// 	•	`_idNumber`: 112358132134
-
-
-
+// ========== CONSTRUCTORS PARAMS ==========
+/**
+* `_shares`: 1000
+* `_name`: “Pat”
+* `_salary`: 50000
+* `_idNumber`: 112358132134
+*/
 
 contract EmployeeStorage {
     // ✅ STORAGE OPTIMIZATION: Pack shares + salary in one slot
