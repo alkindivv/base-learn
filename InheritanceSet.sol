@@ -1,24 +1,25 @@
-// 🚀 URUTAN DEPLOYMENT DI REMIX:
-// Step 1: Deploy Salesperson
-// 	•	Pilih `Salesperson` dari dropdown
-// 	•	Klik Deploy
-// 	•	Copy address yang dihasilkan
-// Step 2: Deploy EngineeringManager
-// 	•	Pilih `EngineeringManager` dari dropdown
-// 	•	Klik Deploy
-// 	•	Copy address yang dihasilkan
-// Step 3: Deploy InheritanceSubmission
-// 	•	Pilih `InheritanceSubmission` dari dropdown
-// 	•	Masukkan kedua address dari Step 1 & 2
-// 	•	Klik Deploy
-// 	•	Copy address InheritanceSubmission
-// 🎖️ SUBMIT UNTUK PIN:
-// Address InheritanceSubmission contract inilah yang Anda submit ke Base.org untuk mendapatkan NFT Badg
-
-
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
+
+// ========== DEPLOY INSTRUCTIONS ==========
+/**
+* Copy-paste entire code
+* Compile with Solidity `^0.8.17`
+* Step 1: Deploy `Salesperson` contract
+*   - Select `Salesperson` from the dropdown
+*   - Click Deploy
+*   - Copy the generated address
+* Step 2: Deploy `EngineeringManager` contract
+*   - Select `EngineeringManager` from the dropdown
+*   - Click Deploy
+*   - Copy the generated address
+* Step 3: Deploy `InheritanceSubmission` contract
+*   - Select `InheritanceSubmission` from the dropdown
+*   - Input both addresses from Step 1 & Step 2
+*   - Click Deploy
+*   - Copy the address of `InheritanceSubmission`
+* Submit the `InheritanceSubmission` contract address to Base.org to claim your NFT Badge
+*/
 
 // 1. Abstract Employee Contract
 abstract contract Employee {
